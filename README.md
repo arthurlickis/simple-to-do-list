@@ -13,6 +13,4 @@ Este projeto é uma aplicação de lista de tarefas (To-Do List) desenvolvida co
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/)
-- HTML5 + CSS3
-- JavaScript (ES6+)
 - LocalStorage (API do navegador)
