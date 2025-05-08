@@ -1,0 +1,52 @@
+.tasks {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tasks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  transition: background-color 0.3s;
+}
+
+.tasks li:hover {
+  background-color: color-mix(in srgb, var(--gray) 20%, var(--white) 80%);
+}
+
+.tasks li div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tasks li div button {
+  font-size: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.tasks li div .edit {
+  color: var(--cian);
+  transition: color 0.3s;
+}
+
+.tasks li div .delete {
+  color: var(--pink);
+  transition: color 0.3s;
+}
+
+.tasks li div .edit:hover,
+.tasks li div .delete:hover {
+  color: var(--black);
+}
+
+.no-task {
+  text-align: center;
+  color: #818181;
+}

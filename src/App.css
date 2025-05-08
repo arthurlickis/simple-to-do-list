@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink: #f04c64;
+  --green: #289b65fd;
+  --gray: #ccc;
+  --cian: #51c5de;
+  --white: #fff;
+  --blue: #0a4f70;
+  --black: #212121;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--blue);
+}
+
+button {
+  cursor: pointer;
+}
